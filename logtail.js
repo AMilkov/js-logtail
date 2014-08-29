@@ -9,8 +9,8 @@ var scrollelems = ["html", "body"];
 
 var url = "error.log";
 var fix_rn = true;
-var load = 30 * 1024; /* 30KB */
-var poll = 1000; /* 1s */
+var load = 10 * 1024; /* 10KB */
+var poll = 2000; /* 2s */
 
 var kill = false;
 var loading = false;
